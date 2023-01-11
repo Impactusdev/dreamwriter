@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Product Sans';
+  src: url('../assets/fonts/ProductSans-regular.ttf');  
+}
+@font-face {
+  font-family: 'Product Bold';
+  src: url('../assets/fonts/ProductSans-bold.ttf');  
+}
+@font-face {
+  font-family: 'Blacker';
+  src: url('../assets/fonts/Blacker.ttf');  
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #F8FAFB;
+
+  font-family: 'Product Sans', sans-serif;
+}
