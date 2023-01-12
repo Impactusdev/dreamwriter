@@ -24,13 +24,12 @@ const Index = () => {
   }
 
   const doneTask = (i) => {
-    let idx = tasks[i];
-    let newValue = tasks[tasks.idx];
-    newValue = [{
-      ...task,
-      text: 'Feito'
-    }]
-    setTask(idx)
+    const tasksCopy = tasks;
+    tasksCopy[i] = {
+      ...tasksCopy[i],
+      isDone: true,
+    };
+    setTasks(tasksCopy);
   }
 
   return (
