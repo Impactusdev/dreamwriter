@@ -20,6 +20,7 @@ html, body {
   margin: 0;
   box-sizing: border-box;
   background: #F8FAFB;
+  overflow-x: hidden;
 
   font-family: 'Product Sans', sans-serif;
 }

@@ -17,7 +17,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <div className="flex flex-row h-screen p-7">
+      <div className="flex flex-row max-sm:flex-col h-screen p-7 max-sm:p-4">
         <Menu name={name}/>
         <TodoBoard/>
       </div>
