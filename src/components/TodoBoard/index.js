@@ -32,7 +32,7 @@ const Index = () => {
 
 
   return (
-    <div className='flex flex-col bg-white shadow-xl max-sm:shadow-sm px-10 max-sm:px-3 py-20 max-2xl:py-12 w-full max-sm:h-full relative'>
+    <div className='flex flex-col bg-white shadow-xl max-sm:shadow-sm px-10 max-sm:px-3 py-20 max-sm:pb-28 max-2xl:py-12 w-full max-sm:h-fit relative'>
 
       <h1 className='text-[#242423] text-5xl max-sm:text-3xl'>
         <strong>💡Anote suas metas</strong>
